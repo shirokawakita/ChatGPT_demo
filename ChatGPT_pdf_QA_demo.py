@@ -13,9 +13,10 @@ from langchain.chains import RetrievalQA
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
+import os
 
-QDRANT_PATH = "./local_qdrant"
-COLLECTION_NAME = "my_collection_2"
+#QDRANT_PATH = "./local_qdrant"
+#COLLECTION_NAME = "my_collection_2"
 
 
 def init_page():

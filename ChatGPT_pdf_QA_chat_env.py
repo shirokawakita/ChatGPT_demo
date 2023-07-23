@@ -25,6 +25,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
 
 import json
+import os
 
 #QDRANT_PATH = "./local_qdrant"
 COLLECTION_NAME = "my_collection_2"
